@@ -246,3 +246,4 @@ Let's build something people actually use.
 <sub>&#9679;&nbsp; Built in Chennai · IST (UTC+5:30) &nbsp;·&nbsp; <a href="https://shankarv-portfolio.vercel.app">shankarv-portfolio.vercel.app</a></sub>
 
 </div>
+
