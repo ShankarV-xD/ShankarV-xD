@@ -20,7 +20,7 @@
 
 </div>
 
-I work in the messy middle between machine-learning research and shipped product — getting computer-vision models, LLM agents, and data pipelines to run reliably for real users, not just in a notebook. I've spent the last two years doing exactly that at **[Randomwalk AI](https://shankarv-portfolio.vercel.app)**, and I build my own tools on the side. A few of them are live below — the code's all here to read.
+I work in the messy middle between machine-learning research and shipped product: getting computer-vision models, LLM agents, and data pipelines to run reliably for real users, not just in a notebook. I've spent the last two years doing exactly that at **[Randomwalk AI](https://shankarv-portfolio.vercel.app)**, and I build my own tools on the side. A few of them are live below, and the code's all here to read.
 
 ```python
 shankar = {
@@ -35,23 +35,23 @@ shankar = {
 
 ## 🔭 Things I'm building
 
-Side projects I actually use — open to read, most are live:
+Side projects I actually use, open to read, most are live:
 
 | Project | What it does | Built with | |
 |:--|:--|:--|:--|
 | **[Agentic Web&nbsp;Researcher](https://github.com/ShankarV-xD/agentic-web-researcher)** | A research agent with the search loop written from scratch (no LangChain): it searches, reads pages, compresses what it finds, and streams back cited answers in real time. | `FastAPI` `Next.js` `Gemini` `SSE` | [▶ live](https://sv-agentic-web-researcher.vercel.app) |
-| **[Knowledge&nbsp;Base](https://github.com/ShankarV-xD/knowledge-base)** | Chat with your own notes — Obsidian, Notion, PDFs, markdown — using hybrid retrieval (vector + BM25) so it actually surfaces the right passage. | `FastAPI` `pgvector` `Gemini` `Redis` | [▶ live](https://sv-knowledge-base.vercel.app) |
-| **DevHub** | Paste anything — JSON, a JWT, a hex color, a cron string — and it figures out what it is and gives you the right tool. Monaco editor, JWT verify, 44 tests green. | `Next.js` `TypeScript` `Monaco` | [▶ live](https://sv-devhub.vercel.app) |
-| **DriveFlix** `wip` | Streams video straight from a Google Drive Shared Drive — instant seeking, multiple audio tracks, subtitles, zero transcoding. | `React` `FastAPI` `Shaka` `FFmpeg` | — |
-| **NexusDL** | Android app that pulls media from YouTube + 1,000 other sites, picks the best format, merges audio, and shows live speed/ETA. | `Kotlin` `Compose` `yt-dlp` | — |
+| **[Knowledge&nbsp;Base](https://github.com/ShankarV-xD/knowledge-base)** | Chat with your own notes (Obsidian, Notion, PDFs, markdown) using hybrid retrieval (vector + BM25) so it actually surfaces the right passage. | `FastAPI` `pgvector` `Gemini` `Redis` | [▶ live](https://sv-knowledge-base.vercel.app) |
+| **DevHub** | Paste anything (JSON, a JWT, a hex color, a cron string) and it figures out what it is and gives you the right tool. Monaco editor, JWT verify, 44 tests green. | `Next.js` `TypeScript` `Monaco` | [▶ live](https://sv-devhub.vercel.app) |
+| **DriveFlix** `wip` | Streams video straight from a Google Drive Shared Drive: instant seeking, multiple audio tracks, subtitles, zero transcoding. | `React` `FastAPI` `Shaka` `FFmpeg` |  |
+| **NexusDL** | Android app that pulls media from YouTube + 1,000 other sites, picks the best format, merges audio, and shows live speed/ETA. | `Kotlin` `Compose` `yt-dlp` |  |
 
 ## ⚙️ What I do in production
 
-Day job at **Randomwalk AI** — four AI systems running live across the Middle East & Australia. What they taught me to do well:
+Day job at **Randomwalk AI**, where four AI systems run live across the Middle East & Australia. What they taught me to do well:
 
-- **Computer vision at scale** — custom **YOLOv11 + OCR** floor-plan engine at **97% accuracy** (cut review from ~2h to <5 min/drawing); real-time analytics over **50+** fuel stations at **95% precision** on **5,000+** trained images; sub-**200ms** exclusion-zone breach detection for **200+** workers.
-- **Data & LLM pipelines** — a social-listening platform crunching **50,000+** mentions/day across 5 platforms, with **Airflow** DAGs feeding **BigQuery**.
-- **The unglamorous glue** — WebSocket progress, Redis task queues, auth, Docker, GPU inference on Runpod — the parts that decide whether a model ever reaches a user.
+- **Computer vision at scale:** custom **YOLOv11 + OCR** floor-plan engine at **97% accuracy** (cut review from ~2h to <5 min/drawing); real-time analytics over **50+** fuel stations at **95% precision** on **5,000+** trained images; sub-**200ms** exclusion-zone breach detection for **200+** workers.
+- **Data & LLM pipelines:** a social-listening platform crunching **50,000+** mentions/day across 5 platforms, with **Airflow** DAGs feeding **BigQuery**.
+- **The unglamorous glue:** WebSocket progress, Redis task queues, auth, Docker, GPU inference on Runpod, the parts that decide whether a model ever reaches a user.
 
 ## 🧰 Tools I reach for
 
@@ -91,7 +91,7 @@ Day job at **Randomwalk AI** — four AI systems running live across the Middle 
 
 ## 📫 Reach me
 
-If any of the above is your kind of problem, I'd be glad to talk — full-time, freelance, or just comparing notes.
+If any of the above is your kind of problem, I'd be glad to talk: full-time, freelance, or just comparing notes.
 
 [![Email](https://img.shields.io/badge/shankarv1012@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1c2128)](mailto:shankarv1012@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/in%2Fshankar--v-0A66C2?style=for-the-badge&logoColor=white)](https://linkedin.com/in/shankar--v)
