@@ -7,7 +7,7 @@
 # Shankar&nbsp;V
 
 <a href="https://shankarv-portfolio.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&pause=1100&color=22C55E&center=true&vCenter=true&width=620&height=42&lines=Full-Stack+Developer+%2B+AI+%2F+CV+Engineer;Production+computer+vision+%C2%B7+LLM+agents+%C2%B7+pipelines;2+yrs+shipping+AI+products+%40+Randomwalk+AI" alt="Full-Stack Developer + AI / CV Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1100&color=22C55E&center=true&vCenter=true&width=800&height=42&lines=Full-Stack+Developer+%2B+AI+%2F+CV+Engineer;Production+computer+vision+%C2%B7+LLM+agents+%C2%B7+pipelines;2+yrs+shipping+AI+products+%40+Randomwalk+AI" alt="Full-Stack Developer + AI / CV Engineer" />
 </a>
 
 <p>
