@@ -39,11 +39,11 @@ Side projects I actually use, open to read, most are live:
 
 | Project | What it does | Built with | |
 |:--|:--|:--|:--|
-| **[Agentic Web&nbsp;Researcher](https://github.com/ShankarV-xD/agentic-web-researcher)** | A research agent with the search loop written from scratch (no LangChain): it searches, reads pages, compresses what it finds, and streams back cited answers in real time. | `FastAPI` `Next.js` `Gemini` `SSE` | [▶ live](https://sv-agentic-web-researcher.vercel.app) |
-| **[Knowledge&nbsp;Base](https://github.com/ShankarV-xD/knowledge-base)** | Chat with your own notes (Obsidian, Notion, PDFs, markdown) using hybrid retrieval (vector + BM25) so it actually surfaces the right passage. | `FastAPI` `pgvector` `Gemini` `Redis` | [▶ live](https://sv-knowledge-base.vercel.app) |
-| **DevHub** | Paste anything (JSON, a JWT, a hex color, a cron string) and it figures out what it is and gives you the right tool. Monaco editor, JWT verify, 44 tests green. | `Next.js` `TypeScript` `Monaco` | [▶ live](https://sv-devhub.vercel.app) |
-| **DriveFlix** `wip` | Streams video straight from a Google Drive Shared Drive: instant seeking, multiple audio tracks, subtitles, zero transcoding. | `React` `FastAPI` `Shaka` `FFmpeg` |  |
-| **NexusDL** | Android app that pulls media from YouTube + 1,000 other sites, picks the best format, merges audio, and shows live speed/ETA. | `Kotlin` `Compose` `yt-dlp` |  |
+| **[Agentic Web&nbsp;Researcher](https://github.com/ShankarV-xD/agentic-web-researcher)** | A research agent with the search loop written from scratch (no LangChain): it searches, reads pages, compresses what it finds, and streams back cited answers in real time. | `FastAPI` `Next.js` `Gemini` `Serper` `SSE` | [▶ live](https://sv-agentic-web-researcher.vercel.app) |
+| **[Knowledge&nbsp;Base](https://github.com/ShankarV-xD/knowledge-base)** | Chat with your own notes (Obsidian, Notion, PDFs, markdown) using hybrid retrieval (vector + full-text, fused with RRF) so it actually surfaces the right passage. | `FastAPI` `pgvector` `Gemini` `Redis` | [▶ live](https://sv-knowledge-base.vercel.app) |
+| **DevHub** | Paste anything (JSON, a JWT, a hex color, a cron string) and it figures out what it is and gives you the right tool. Monaco editor, JWT verify, 122 tests green. | `Next.js` `TypeScript` `Monaco` | [▶ live](https://sv-devhub.vercel.app) |
+| **DriveFlix** `wip` | Streams video from a Google Drive Shared Drive in a Netflix-style UI: browser-native files play instantly, everything else is transcoded on the fly with FFmpeg. Custom HTML5 player plus a native Android TV app. | `React` `FastAPI` `FFmpeg` `SQLite` `Compose for TV` |  |
+| **NexusDL** | Android app that pulls media from YouTube + 1,000 other sites, picks the best format, merges audio with FFmpegKit, and shows live speed/ETA. | `Kotlin` `Compose` `yt-dlp` `Chaquopy` `FFmpegKit` |  |
 
 ## ⚙️ What I do in production
 
